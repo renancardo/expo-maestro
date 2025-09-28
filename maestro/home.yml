@@ -1,0 +1,6 @@
+appId: com.anonymous.maestro-template
+---
+- launchApp
+- assertVisible: "Welcome!"
+- tapOn: "Explore.*"
+- assertVisible: "Explore"

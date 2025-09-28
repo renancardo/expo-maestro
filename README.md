@@ -1,6 +1,6 @@
-# Welcome to your Expo app 👋
+# React Native Expo App with Maestro E2E Testing 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a simple React Native project built with [Expo](https://expo.dev) and configured with [Maestro](https://maestro.dev) for end-to-end testing. The project was created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
 
@@ -24,6 +24,23 @@ In the output, you'll find options to open the app in a
 - [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+## Maestro E2E Testing
+
+This project comes pre-configured with Maestro for end-to-end testing. To get started with Maestro:
+
+1. **Install Maestro** following the official installation guide:
+   - [Installing Maestro](https://docs.maestro.dev/getting-started/installing-maestro)
+
+2. **Learn about E2E testing with Expo and Maestro**:
+   - [EAS Workflows Examples - E2E Tests](https://docs.expo.dev/eas/workflows/examples/e2e-tests/)
+
+3. **Run Maestro tests**:
+   ```bash
+   maestro test maestro/
+   ```
+
+The `maestro/` directory contains the test files for your app's end-to-end testing scenarios.
 
 ## Get a fresh project
 
